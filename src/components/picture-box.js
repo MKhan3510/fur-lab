@@ -5,8 +5,10 @@ import './css/picture-box.css'
 
 const PictureBox = () => {
     return (
-      <div className='PictureBox'>
-
+      <div class="col-4 picture-box">
+          <img src={pic} class="pic" />
+        <h3>Takota McConner</h3>
+        <p class="list-group-item">"I hate Mondays."</p>
       </div>
     );
 }
